@@ -1,0 +1,15 @@
+@import '../abstract/variables';
+
+#bottom {
+    text-align: center;
+    padding: 2rem;
+    font-size: $tamanho-texto / 2;
+    font-weight: 300;
+    line-height: 1.2;
+    border: 12px solid $cor-terciaria;
+    h3, h4, p {
+        color: $cor-primaria;
+        width: 60%;
+        margin: auto;
+    }
+}
